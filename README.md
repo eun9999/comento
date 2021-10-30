@@ -4,7 +4,7 @@
  - eqlipse + tomcat으로 웹서버 셋팅
 
 
-     (https://user-images.githubusercontent.com/64730787/139535013-95487b0a-a29c-4aee-a22b-e7d7db36b04c.JPG)
+     ![과제1_HelloWorld출력](https://user-images.githubusercontent.com/64730787/139535028-cc0c8e2f-5f2b-4c78-bd5b-19baff483355.JPG)
      
  - MariaDB 샘플 DB 구축
 
