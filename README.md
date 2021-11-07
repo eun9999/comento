@@ -15,3 +15,8 @@
 
 
      ![과제1_웹페이지에 DB내용 출력](https://user-images.githubusercontent.com/64730787/139553955-cf11ff3d-c309-4670-9101-c4ab7805636e.JPG)
+
+# 2주차
+
+## Rest API, HTTP 통신, 클라이언트&서버 요청 응답 과정
+    2주차 과제.doxc 파일로 올려놨습니다.
