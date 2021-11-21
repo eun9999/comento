@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.eun.settingweb_boot.dao.StatisticMapper">
+ 
+    <select id="selectYearLogin" parameterType="string" resultType="hashMap">
+        select count(*) as totCnt
+        from statistc.requestinfo ri
+        where left(ri.createDate, 2) = #{year};
+    </select>
+
+    <select id="selectMonthLogin" parameterType="string" resultType="hashMap">
+        select count(*) as totCnt
+        from statistc.requestinfo ri
+        where left(ri.createDate, 4) = #{month};
+    </select>
+    
+    <select id="selectDayLogin" parameterType="string" resultType="hashMap">
+        select count(*) as totCnt
+        from statistc.requestinfo ri
+        where left(ri.createDate, 6) = #{day};
+    </select>
+    
+    <select id="selectDeptMonthLogin" parameterType="string" resultType="hashMap">
+        SELECT COUNT(*) AS totcnt
+		FROM requestinfo A, user B
+		WHERE A.userID = B.userID 
+			AND B.HR_ORGAN = #{dept} 
+			AND LEFT(A.createDate,4) = #{month}
+		GROUP BY B.HR_ORGAN, LEFT(A.createDate,4);
+    </select>
+    
+</mapper>
