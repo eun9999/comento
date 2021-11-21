@@ -27,10 +27,9 @@
 
 ## 스프링 부트 환경 셋팅
 
-
-    ![과제3_스프링부트환경구축](https://user-images.githubusercontent.com/64730787/142765927-9324dbc1-ed4b-4033-9502-4dd54226622f.JPG)
+![과제3_스프링부트환경구축](https://user-images.githubusercontent.com/64730787/142765927-9324dbc1-ed4b-4033-9502-4dd54226622f.JPG)
 
 ## DB 조회 예시
 - 해당 년도 로그인 수
 
-    ![과제3_DB조회](https://user-images.githubusercontent.com/64730787/142765950-98889cd9-fe73-49b7-8404-6fbd680a926b.JPG)
+![과제3_DB조회](https://user-images.githubusercontent.com/64730787/142765950-98889cd9-fe73-49b7-8404-6fbd680a926b.JPG)
