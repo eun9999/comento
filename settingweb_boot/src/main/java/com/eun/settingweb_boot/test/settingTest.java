@@ -48,6 +48,12 @@ public class settingTest {
     }
     
     @ResponseBody
+    @RequestMapping("/sqldayAVGStatistic/{year}")
+	public Map<String, Object> sqltest4(@PathVariable String year) throws Exception{ 
+        return service.dayAVGloginNum(year);
+    }
+    
+    @ResponseBody
     @RequestMapping("/sqldeptmonthStatistic/{dept}/{month}")
 	public Map<String, Object> sqltest5(@PathVariable String dept, @PathVariable String month) throws Exception{ 
         return service.deptmonthloginNum(dept, month);

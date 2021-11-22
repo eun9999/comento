@@ -23,6 +23,12 @@
         where left(ri.createDate, 6) = #{day};
     </select>
     
+    <select id="selectAVGLogin" parameterType="string" resultType="hashMap">
+        select COUNT(*)/365 as AVG
+		from statistc.requestinfo ri
+		where left(ri.createDate, 2) = #{year}
+    </select>
+    
     <select id="selectDeptMonthLogin" parameterType="string" resultType="hashMap">
         SELECT COUNT(*) AS totcnt
 		FROM requestinfo A, user B
