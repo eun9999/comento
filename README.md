@@ -34,4 +34,3 @@
 
 ![과제3_DB조회](https://user-images.githubusercontent.com/64730787/142765950-98889cd9-fe73-49b7-8404-6fbd680a926b.JPG)
 
-## 아직 4주차 과제 중인데 완성되는대로 푸시하겠습니다 ㅜㅜ 
